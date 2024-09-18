@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&family=Oswald:wght@200..700&display=swap');
+
+body{
+    font-size: 26px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2 {
+    color: gold;
+}
+.main{
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 40px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#img1{
+    border-width: 5px;
+    width: 400px;
+    height: 400px;
+}
+#text{
+    align-self: center;
+    padding: 400px;
+}
+
+h4{
+    color: gold;
+    opacity: 0.8;
+    cursor: pointer;
+    font-family: nabla;
+}
+
+.description{
+    font-size: 17px;
+    color: goldenrod;
+    box-shadow: 2px 5px 4px rgb(200, 200, 200);
+    max-width: 300px;
+    padding: 25px;
+    background-color: white;
+}
+
+footer{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 200px;
+    padding: 50px;
+}
+
+#Paulo{
+    font-weight: bold;
+}
+
+#Paulo:hover{
+    color: yellow;
+    background-color: black;
+    font-size: 18px;
+}
+
+#Paulo:active{
+    background-color: wheat;
+    font-size: 30px;
+}
